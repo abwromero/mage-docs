@@ -18,7 +18,7 @@ clean-targets:
   - "dbt_packages"
 
 models:
-  de_project:
+  car_sales_dashboard:
     staging:
       +materialized: view
     marts:

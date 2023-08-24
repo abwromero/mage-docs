@@ -1,0 +1,3 @@
+checks for stg_src__values:
+  - duplicate_count(id) = 0
+  - missing_count(id) = 0

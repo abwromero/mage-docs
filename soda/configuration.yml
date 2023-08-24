@@ -1,0 +1,8 @@
+data_source car_sales_database:
+  type: postgres
+  connection:
+    host: main-db
+    username: main
+    password: main123
+  database: main
+  schema: raw

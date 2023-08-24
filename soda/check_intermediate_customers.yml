@@ -1,0 +1,14 @@
+checks for int_src_customers_cleaned:
+  - duplicate_count(customer_id):
+    warn: when > 0
+    fail: when > 1    
+  - missing_count(customer_id):
+    warn: when > 0
+    fail: when > 1
+  - values in customer_id must exist in int_src_sales_condensed customer_id
+  - invalid_count(mobile_number) = 0
+    valid format: phone number
+  - invalid_count(customer_email) = 0
+    valid format: email
+  - invalid_count(updated_at) = 0
+    valid format: date inverse

@@ -1,0 +1,10 @@
+checks for int_src_sales_condensed:
+  - row_count same as stg_src__values
+  - duplicate_count(transaction_id):
+    warn: when > 0
+    fail: when > 1    
+  - missing_count(transaction_id):
+    warn: when > 0
+    fail: when > 1
+  - invalid_count(purchase_date) = 0
+    valid format: date inverse

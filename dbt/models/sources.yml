@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: main
     database: main
-    schema: raw
+    schema: dev
     tables:
       - name: raw_values
         identifier: raw_values

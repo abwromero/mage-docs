@@ -1,12 +1,12 @@
 car_sales_dashboard:
-  target: raw
+  target: dev
   outputs:
-    raw:
+    dev:
       type: postgres
       host: main-db
       user: main
       password: main123
       port: 5432
       dbname: main
-      schema: raw
+      schema: dev
       threads: 1

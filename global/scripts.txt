@@ -1,0 +1,2 @@
+mv /home/src/default_repo/mage-docs/dbt/dbt_project.yml /home/src/default_repo/mage-docs/dbt/profiles.yml /home/src/default_repo/mage-docs/dbt/packages.yml /home/src/default_repo/dbt/car_sales_dashboard
+mv /home/src/default_repo/mage-docs/dbt/models /home/src/default_repo/dbt/car_sales_dashboard/models

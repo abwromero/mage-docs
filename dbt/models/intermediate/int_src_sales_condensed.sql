@@ -1,3 +1,9 @@
+{{
+	config(
+		materialized = "table"
+	)
+}}
+
 WITH
 staging_values AS (
     SELECT

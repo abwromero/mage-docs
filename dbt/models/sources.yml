@@ -7,8 +7,3 @@ sources:
     tables:
       - name: raw_values
         identifier: raw_values
-        columns:
-          - name: id
-            tests:
-              - dbt_expectations.expect_column_values_to_not_be_null:
-                  row_condition: "id is not null"

@@ -1,3 +1,5 @@
-checks for stg_src__values:
-  - duplicate_count(id) = 0
-  - missing_count(id) = 0
+checks for raw_values:
+  - duplicate_count(id):
+        fail: when > 0
+  - missing_count(id):
+        fail: when > 0

@@ -1,4 +1,11 @@
-with stg_values AS (
+{{
+	config(
+		materialized = "table"
+	)
+}}
+
+WITH
+stg_values AS (
     SELECT
         *
     FROM

@@ -1,4 +1,9 @@
-{{ config(schema='visualization')}}
+{{
+	config(
+		materialized = "table",
+        schema= "visualization"
+	)
+}}
 
 WITH
 customer_data AS (
